@@ -10,8 +10,8 @@ public class AlunoTest {
         Aluno Aluno = new Aluno("fake.email@email.com", "Fake Fake");
         String nomeExpected = "Fake Fake";
         String emailExpected = "fake.email@email.com";
-        String nomeResponse =;
-        Assertions.assertEquals();
+        Assertions.assertEquals(nomeExpected, Aluno.getNome());
+        Assertions.assertEquals(emailExpected, Aluno.getEmail());
     }
 
 }
