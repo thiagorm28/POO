@@ -9,7 +9,7 @@ public class Aluno extends Pessoa{
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return super.toString() +  "{Aluno{" +
                 "nota: " + nota + "\"" + "}}";
     }

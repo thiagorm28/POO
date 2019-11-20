@@ -14,4 +14,22 @@ public class ProfessorTest {
         Assertions.assertEquals(emailExpected, professor.getEmail());
     }
 
+    @Test
+    public void casoNomeSejaNulo(){
+        try {
+            Professor professor = new Professor("professor@hotmail.com", null);
+        } catch (CampoNaoPodeSerNulo naoPodeSerNulo){
+            Assertions.assertEquals("Nome não pode ser nulo", naoPodeSerNulo.getMessage());
+        }
+    }
+
+    @Test
+    public void casoEmailSejaNulo(){
+        try {
+            Professor professor = new Professor(null, "Professor");
+        } catch (CampoNaoPodeSerNulo naoPodeSerNulo){
+            Assertions.assertEquals("Email não pode ser nulo", naoPodeSerNulo.getMessage());
+        }
+    }
+
 }

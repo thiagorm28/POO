@@ -1,7 +1,9 @@
 package Presenca;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 
 public class App {
 
@@ -12,19 +14,18 @@ public class App {
 
         Professor professor = new Professor("igor.silva@db1.com.br", "Igor Silva");
 
-        Materia materia = new Materia();
-        materia.nome = "POO";
-        materia.descricao = "Abstração, Encapsulamento, Polimorfismo e Herança";
-        materia.cargaHoraria = 10.5;
-        materia.quantidadeAulas = 3;
-        materia.professor = professor;
+        Materia materia = new Materia("POO", "Abstração, Encapsulamento, Polimorfismo e Herança", 10.5, 3, professor);
 
-        Aula aula = new Aula();
-        aula.data = new Date();
-        aula.materia = materia;
-        aula.alunos = new ArrayList<>();
-        aula.alunos.add(aluno1);
-        aula.alunos.add(aluno2);
+        List<Aluno> alunos = new ArrayList<Aluno>();
+        alunos.addAll(Arrays.asList(aluno1, aluno2));
+
+        Aula aula = new Aula(new Date(), materia, alunos);
+
+        System.out.println(aula);
+
+        Professor professor1 = new Professor("thiago@email.com", "Thiago");
+
+       materia.trocaProfessor(professor1);
 
         System.out.println(aula);
     }
