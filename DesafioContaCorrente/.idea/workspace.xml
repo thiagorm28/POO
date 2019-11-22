@@ -2,109 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fb35242-c211-4105-aafe-f31ce30f5510" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ContaCorrente/Transacao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ContaCorrente/Cliente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ContaCorrente/ClienteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="37" column="88" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ContaCorrente/TransacaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#228#239#0" expanded="true" />
-                <element signature="e#791#802#0" expanded="true" />
-                <element signature="e#1334#1345#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ContaCorrente/Conta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ContaCorrente/ContaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#279#290#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ContaCorrente/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="17" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#518#529#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ContaCorrente/CampoNaoPodeSerNulo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding>
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,56 +16,11 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/ContaCorrente/CampoNaoPodeSerNulo.java" />
-        <option value="$PROJECT_DIR$/src/ContaCorrente/Conta.java" />
-        <option value="$PROJECT_DIR$/src/ContaCorrente/ClienteTest.java" />
-        <option value="$PROJECT_DIR$/src/ContaCorrente/Cliente.java" />
-        <option value="$PROJECT_DIR$/src/ContaCorrente/Transacao.java" />
-        <option value="$PROJECT_DIR$/src/ContaCorrente/App.java" />
-        <option value="$PROJECT_DIR$/src/ContaCorrente/TransacaoTest.java" />
-        <option value="$PROJECT_DIR$/src/ContaCorrente/ContaTest.java" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DesafioContaCorrente" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesafioContaCorrente" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioContaCorrente" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesafioContaCorrente" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesafioContaCorrente" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesafioContaCorrente" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ContaCorrente" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -195,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ContaTest.verificaSeClienteENulo">
+  <component name="RunManager" selected="JUnit.ContaTest.deveCriarConta">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ContaCorrente.App" />
       <module name="DesafioContaCorrente" />
@@ -209,7 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClienteTest.verificaSeCpfENulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContaTest.deveCriarCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesafioContaCorrente" />
       <extension name="coverage">
         <pattern>
@@ -218,14 +75,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ContaCorrente" />
-      <option name="MAIN_CLASS_NAME" value="ContaCorrente.ClienteTest" />
-      <option name="METHOD_NAME" value="verificaSeCpfENulo" />
+      <option name="MAIN_CLASS_NAME" value="ContaCorrente.ContaTest" />
+      <option name="METHOD_NAME" value="deveCriarCliente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClienteTest.verificaSeRgENulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContaTest.deveCriarConta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesafioContaCorrente" />
       <extension name="coverage">
         <pattern>
@@ -234,8 +91,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ContaCorrente" />
-      <option name="MAIN_CLASS_NAME" value="ContaCorrente.ClienteTest" />
-      <option name="METHOD_NAME" value="verificaSeRgENulo" />
+      <option name="MAIN_CLASS_NAME" value="ContaCorrente.ContaTest" />
+      <option name="METHOD_NAME" value="deveCriarConta" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -257,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransacaoTest.casoTipoEstejaErrado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransacaoTest.deveCriarTransacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesafioContaCorrente" />
       <extension name="coverage">
         <pattern>
@@ -267,7 +124,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ContaCorrente" />
       <option name="MAIN_CLASS_NAME" value="ContaCorrente.TransacaoTest" />
-      <option name="METHOD_NAME" value="casoTipoEstejaErrado" />
+      <option name="METHOD_NAME" value="deveCriarTransacao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -275,13 +132,23 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContaTest.deveCriarConta" />
+        <item itemvalue="JUnit.ContaTest.deveCriarCliente" />
         <item itemvalue="JUnit.ContaTest.verificaSeClienteENulo" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.TransacaoTest.casoTipoEstejaErrado" />
-        <item itemvalue="JUnit.ClienteTest.verificaSeRgENulo" />
-        <item itemvalue="JUnit.ClienteTest.verificaSeCpfENulo" />
+        <item itemvalue="JUnit.TransacaoTest.deveCriarTransacao" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -295,176 +162,5 @@
       <updated>1574354681051</updated>
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="TransacaoTest_deveCriarTransacao - 2019.11.21 at 16h 52m 21s.xml">
-      <configuration name="TransacaoTest.deveCriarTransacao" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransacaoTest_casoTipoEstejaErrado - 2019.11.21 at 16h 56m 18s.xml">
-      <configuration name="TransacaoTest.casoTipoEstejaErrado" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransacaoTest_casoValorEstejaErrado - 2019.11.21 at 16h 58m 40s.xml">
-      <configuration name="TransacaoTest.casoValorEstejaErrado" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransacaoTest_casoValorEstejaErrado - 2019.11.21 at 16h 59m 19s.xml">
-      <configuration name="TransacaoTest.casoValorEstejaErrado" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClienteTest_deveCriarCliente - 2019.11.21 at 17h 07m 14s.xml">
-      <configuration name="ClienteTest.deveCriarCliente" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClienteTest_verificaSeEmailENulo - 2019.11.21 at 17h 18m 30s.xml">
-      <configuration name="ClienteTest.verificaSeEmailENulo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClienteTest_verificaSeCpfENulo - 2019.11.21 at 17h 19m 30s.xml">
-      <configuration name="ClienteTest.verificaSeCpfENulo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClienteTest_verificaSeRgENulo - 2019.11.21 at 17h 20m 26s.xml">
-      <configuration name="ClienteTest.verificaSeRgENulo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClienteTest_verificaSeRgENulo - 2019.11.21 at 17h 20m 43s.xml">
-      <configuration name="ClienteTest.verificaSeRgENulo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContaTest_verificaSeClienteENulo - 2019.11.21 at 17h 25m 55s.xml">
-      <configuration name="ContaTest.verificaSeClienteENulo" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32843137" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32843137" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39869282" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ContaCorrente/CampoNaoPodeSerNulo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContaCorrente/ClienteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="37" column="88" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContaCorrente/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContaCorrente/TransacaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#228#239#0" expanded="true" />
-            <element signature="e#791#802#0" expanded="true" />
-            <element signature="e#1334#1345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContaCorrente/Transacao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContaCorrente/Conta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContaCorrente/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="17" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#518#529#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContaCorrente/ContaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#279#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

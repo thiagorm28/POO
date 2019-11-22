@@ -5,7 +5,7 @@ import java.util.List;
 public class Conta {
 
     public Cliente cliente;
-    public Double saldo;
+    public static Double saldo;
     public List<Transacao> extrato;
 
     public Conta(Cliente cliente, Double saldo, List<Transacao> extrato){
