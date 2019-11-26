@@ -1,3 +1,5 @@
+Tutorial de JPA: https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-three-custom-queries-with-query-methods/
+
 EstadoRepository.java
 
 package com.db1start.cidadesapi.repository;
