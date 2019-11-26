@@ -1,0 +1,155 @@
+EstadoRepository.java
+
+package com.db1start.cidadesapi.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.db1start.cidadesapi.domain.entity.Estado;
+
+public interface EstadoRepository extends JpaRepository<Estado, Long> {
+
+Optional<Estado> findByNome(String nome);
+
+}
+
+
+
+
+
+-----------------------------------------------------------------------------------------------
+EstadoService.java
+
+package com.db1start.cidadesapi.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.db1start.cidadesapi.domain.entity.Estado;
+import com.db1start.cidadesapi.repository.EstadoRepository;
+
+@Service
+public class EstadoService {
+
+	@Autowired
+	private EstadoRepository estadoRepository;
+	
+	
+	public Estado criar(String nome) {
+		Estado estado = new Estado(nome);
+		return estadoRepository.save(estado);
+	}
+
+public Estado buscarPorNome(String nome) {
+		return estadoRepository findByNome(nome).orElseThrow(() -> new RuntimeException("estado não encontrado"));
+	}
+}
+
+
+
+------------------------------------------------------------------------
+EstadoServiceTest.java
+
+package com.db1start.cidadesapi.service;
+
+import static org.junit.Assert.assertNotNull;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.db1start.cidadesapi.domain.entity.Estado;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class EstadoServiceTest {
+
+	
+	@Autowired
+	private EstadoService estadoService;
+	
+	@Test
+	public void test() {
+		Estado estado = estadoService.criar("Paraná");
+		
+		assertNotNull(estado);
+		System.out.println(estado.getId());
+	}
+
+@Test
+	public void deveBuscarEstado() {
+		Estado estado = estadoService.buscarPorNome("Paraná");
+		assertNotNull(estado);
+	}
+	
+	@Test
+	public void deveLancarExcecao() {
+		try {
+			Estado estado = estadoService.buscarPorNome("São Paulo");	
+		}
+		catch (RuntimeException ex) {
+			System.out.println(ex.getMessage());
+		}
+	}
+
+}
+
+
+
+
+
+
+
+--------------------------------------------
+Exercícios
+
+1. Criar entidades
+    Agência
+	Long id
+	String número
+	String dígito
+	String banco
+	Cidade cidade
+	List<Conta> conta
+
+    Conta
+	Long id
+	Agencia agencia
+	Double saldo
+	Cliente cliente
+	EstadoConta estado
+
+    Cliente
+	Long id
+	String nome
+	String cpf
+	String telefone
+	Conta conta
+
+2. Mapear entidades com anotações do Spring Data JPA
+
+3. Criar repositórios para cada entidade
+
+4. Criar classes de teste para fazer operações de inserção, consulta e deleção
+
+Sugestões de consultas:
+* todas as contas de uma agência
+* todas as agências de uma dada cidade
+* Todas as cidades de um dado estado
+* Todas as contas ativas
+* Todas as contas inativas
+
+Sugestão de operações
+* criar estado, cidade, agência, cliente, conta
+* alterar o saldo de uma conta (saque e/ou depósito)
+* ativar e desativar uma conta
+
+Exemplo de enum:
+
+public enum EstadoConta {
+    ATIVA,
+    INATIVA;
+}
+
+EstadoConta estado = EstadoConta.ATIVA;
