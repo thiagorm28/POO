@@ -3,6 +3,7 @@ package br.com.db1.db1start.bancoapi.service;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import br.com.db1.db1start.bancoapi.dto.EstadoFormDTO;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -41,7 +42,8 @@ public class EstadoServiceTest {
 	@Test
 	public void deve_atualizar_o_nome_de_um_estado() {
 		Estado estado = estadoService.criar("Paaaraná");
-		String novoNome = "Paraná";
+		EstadoFormDTO novoNome = new EstadoFormDTO();
+		novoNome.setNome("Paraná");
 		Estado estadoAtualizado = estadoService.atualizar(estado.getId(), novoNome);
 		Assertions.assertEquals(estadoAtualizado.getNome(), novoNome);
 	}

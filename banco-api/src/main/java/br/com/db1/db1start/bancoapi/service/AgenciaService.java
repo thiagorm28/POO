@@ -33,6 +33,10 @@ public class AgenciaService {
 	public List<Agencia> buscarTodasPeloIdDaCidade(Long cidadeId) {
         return agenciaRepository.findByCidadeId(cidadeId);
     }
+
+    public void deletaPorId(Long agenciaId) {
+		agenciaRepository.deleteById(agenciaId);
+	}
 	
 	public void deletarTodos() {
     	agenciaRepository.deleteAll();

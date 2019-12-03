@@ -2,6 +2,7 @@ package br.com.db1.db1start.bancoapi.service;
 
 import java.util.List;
 
+import br.com.db1.db1start.bancoapi.dto.EstadoFormDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,9 +21,9 @@ public class EstadoService {
         return estadoRepository.save(estado);
     }
 
-    public Estado atualizar(Long estadoId, String novoNome) {
+    public Estado atualizar(Long estadoId, EstadoFormDTO novoNome) {
         Estado estado = buscarPorId(estadoId);
-        estado.setNome(novoNome);
+        estado.setNome(novoNome.getNome());
         return estadoRepository.save(estado);
     }
 
